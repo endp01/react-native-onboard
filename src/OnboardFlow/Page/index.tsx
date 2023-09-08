@@ -83,7 +83,7 @@ export const Page: FC<PageProps & TextStyles> = ({
       {pageData.imageUri && (
         <Image
           source={{ uri: pageData.imageUri }}
-          style={{ width: 'auto', height: '50%', marginVertical: VERTICAL_PADDING_DEFAULT * 3 }}
+          style={[{ width: 'auto', height: '50%', marginVertical: VERTICAL_PADDING_DEFAULT * 3 }, pageData.imageStyle]}
           resizeMode="contain"
         />
       )}
