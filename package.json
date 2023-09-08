@@ -1,6 +1,6 @@
 {
   "name": "react-native-onboard",
-  "version": "0.0.0-development",
+  "version": "2.5.12",
   "description": "Delightful and fully customizable onboarding elements for React Native.",
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
@@ -17,7 +17,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/endp01/react-native-onboard.git"
+    "url": "git+https://github.com/FrigadeHQ/react-native-onboard.git"
   },
   "keywords": [
     "React",
